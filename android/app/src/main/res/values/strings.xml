@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Handyman</string>    
+    
+    <string name="facebook_app_id">1180140845977688</string>
+    <string name="fb_login_protocol_scheme">fb1180140845977688</string>
+    <string name="facebook_client_token">2143e3ba0caca8d5e9fcf38651733727</string>
+</resources>

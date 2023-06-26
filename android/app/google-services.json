@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "411355818622",
+    "project_id": "handywork-6fccc",
+    "storage_bucket": "handywork-6fccc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411355818622:android:a3b75f1316b8b39802862f",
+        "android_client_info": {
+          "package_name": "com.handyman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411355818622-ss86fuid1qi8mvlj0af03vefnl81ph5i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.handyman",
+            "certificate_hash": "0a463f50ac61778e0968a63d973245eed1711eae"
+          }
+        },
+        {
+          "client_id": "411355818622-51pn8j1kt2pepfm15alhmdu4q38rjgse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_MQsLzo9zBZinsWHGdACF2S0amsKLO7U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411355818622-51pn8j1kt2pepfm15alhmdu4q38rjgse.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
