@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext } from 'react';
 import styles from '../../Pcss/dashboard/dashboard';
 import { COLOURS } from '../../../ThemeColour/Theme';
 import * as Animatable from 'react-native-animatable';
