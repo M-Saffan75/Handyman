@@ -1,4 +1,4 @@
-import themeContext from '../Toggle/themeContext'
+import themeContext from '../Toggle/themeContext';
 import React, { useContext, useState, useEffect} from 'react'
 import { StyleSheet, Text, SafeAreaView, Image, View, StatusBar } from 'react-native'
 
