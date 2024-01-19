@@ -2,6 +2,7 @@ import themeContext from '../Toggle/themeContext';
 import React, { useContext, useState, useEffect} from 'react';
 import { StyleSheet, SafeAreaView, Image, View, StatusBar } from 'react-native';
 
+
 const Splash = ({ navigation }) => {
 
     const [darkmode, setDarkMode] = useState(false);
