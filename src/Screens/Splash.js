@@ -5,8 +5,6 @@ import { StyleSheet, SafeAreaView, Image, View, StatusBar } from 'react-native';
 
 const Splash = ({ navigation }) => {
 
-    const [darkmode, setDarkMode] = useState(false);
-
     const theme = useContext(themeContext);
 
     useEffect(() => {
