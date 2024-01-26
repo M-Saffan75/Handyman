@@ -1,4 +1,4 @@
-import { COLOURS } from '../ThemeColour/Theme'
+import { COLOURS } from '../ThemeColour/Theme';
 import themeContext from '../Toggle/themeContext';
 import React, { useContext, useState, } from 'react';
 import { Dropdown } from 'react-native-element-dropdown';
