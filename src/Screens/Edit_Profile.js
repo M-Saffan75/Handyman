@@ -1,6 +1,6 @@
 import { COLOURS } from '../ThemeColour/Theme'
 import themeContext from '../Toggle/themeContext';
-import React, { useContext, useState, } from 'react'
+import React, { useContext, useState, } from 'react';
 import { Dropdown } from 'react-native-element-dropdown';
 import { launchImageLibrary } from 'react-native-image-picker';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
