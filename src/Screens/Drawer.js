@@ -1,7 +1,7 @@
 import ModalBox from '../ThemeColour/ModalBox'
 import { COLOURS } from '../ThemeColour/Theme'
-import themeContext from '../Toggle/themeContext'
-import React, { useContext, useState, } from 'react'
+import themeContext from '../Toggle/themeContext';
+import React, { useContext, useState, } from 'react';
 import * as Animatable from 'react-native-animatable';
 import { useNavigation } from '@react-navigation/native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
