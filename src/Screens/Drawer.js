@@ -3,8 +3,8 @@ import { COLOURS } from '../ThemeColour/Theme'
 import themeContext from '../Toggle/themeContext'
 import React, { useContext, useState, } from 'react'
 import * as Animatable from 'react-native-animatable';
-import { useNavigation } from '@react-navigation/native'
-import Ionicons from 'react-native-vector-icons/Ionicons'
+import { useNavigation } from '@react-navigation/native';
+import Ionicons from 'react-native-vector-icons/Ionicons';
 import AntDesign from 'react-native-vector-icons/AntDesign'
 import FontAwesome from 'react-native-vector-icons/FontAwesome'
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5'
