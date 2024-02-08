@@ -1,4 +1,4 @@
-import ModalBox from '../ThemeColour/ModalBox'
+import ModalBox from '../ThemeColour/ModalBox';
 import { COLOURS } from '../ThemeColour/Theme';
 import themeContext from '../Toggle/themeContext';
 import React, { useContext, useState, } from 'react';
