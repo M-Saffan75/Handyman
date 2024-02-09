@@ -6,6 +6,7 @@ import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import { responsiveFontSize, responsiveHeight, responsiveWidth } from 'react-native-responsive-dimensions';
 import { ScrollView, StyleSheet, Text, TextInput, View, TouchableOpacity, StatusBar, Image } from 'react-native';
 
+
 const Change_Password = ({ navigation }) => {
 
     const theme = useContext(themeContext);
