@@ -16,7 +16,7 @@ const Edit_Profile = ({ navigation }) => {
 
     let options = {
         saveTophotos: true,
-        mediatype: ' photo',
+        mediatype: 'photo',
     };
 
     const [value, setValue] = useState(null);
