@@ -1,8 +1,8 @@
 import Slider from './Slider'
 import styles from '../css/home';
+import React, { useContext } from 'react';
 import { COLOURS } from '../ThemeColour/Theme';
 import themeContext from '../Toggle/themeContext';
-import React, { useContext } from 'react';
 import * as Animatable from 'react-native-animatable';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
