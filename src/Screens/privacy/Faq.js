@@ -1,10 +1,10 @@
 import styles from '../../css/privacypolicy/faq';
 import { COLOURS } from '../../ThemeColour/Theme';
 import Collapsible from 'react-native-collapsible';
+import React, { useState, useContext } from 'react';
 import themeContext from '../../Toggle/themeContext';
 import * as Animatable from 'react-native-animatable';
 import { useNavigation } from '@react-navigation/native';
-import React, { useState, useContext } from 'react';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import { responsiveWidth } from 'react-native-responsive-dimensions';
 import { StatusBar, SafeAreaView, Text, Image, TouchableOpacity, View, ScrollView } from 'react-native';
