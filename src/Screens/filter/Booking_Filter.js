@@ -5,7 +5,7 @@ import themeContext from '../../Toggle/themeContext';
 import { useNavigation } from '@react-navigation/native';
 import MultiSlider from '@ptomasroos/react-native-multi-slider';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import { Image, StatusBar, Text, TouchableOpacity, View, SafeAreaView } from 'react-native'
+import { Image, StatusBar, Text, TouchableOpacity, View, SafeAreaView } from 'react-native';
 
 
 const Booking_Filter = () => {
