@@ -7,7 +7,7 @@ import { useNavigation } from '@react-navigation/native';
 import React, { useState, useContext } from 'react';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import { responsiveWidth } from 'react-native-responsive-dimensions';
-import { StatusBar, SafeAreaView, Text, Image, TouchableOpacity, View, ScrollView } from 'react-native'
+import { StatusBar, SafeAreaView, Text, Image, TouchableOpacity, View, ScrollView } from 'react-native';
 
 
 const Faq = () => {
