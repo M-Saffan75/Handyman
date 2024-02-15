@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import { COLOURS } from '../../ThemeColour/Theme';
 import themeContext from '../../Toggle/themeContext';
-import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import { responsiveFontSize, responsiveHeight, responsiveWidth } from 'react-native-responsive-dimensions';
