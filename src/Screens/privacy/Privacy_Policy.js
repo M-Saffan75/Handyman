@@ -4,7 +4,7 @@ import themeContext from '../../Toggle/themeContext';
 import * as Animatable from 'react-native-animatable';
 import { useNavigation } from '@react-navigation/native';
 import styles from '../../css/privacypolicy/privacypolicy';
-import React, { useEffect, useState, useContext } from 'react'
+import React, { useEffect, useContext } from 'react'
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5'
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import { StatusBar, SafeAreaView, Text, Image, TouchableOpacity, View, FlatList } from 'react-native'
