@@ -1,7 +1,7 @@
 import { COLOURS } from '../../ThemeColour/Theme';
 import { privacypolicy } from '../../Backend/data';
 import themeContext from '../../Toggle/themeContext';
-import React, { useContext } from 'react';
+import React, { useState, useContext } from 'react';
 import * as Animatable from 'react-native-animatable';
 import { useNavigation } from '@react-navigation/native';
 import styles from '../../css/privacypolicy/privacypolicy';
@@ -46,7 +46,7 @@ const Privacy_Policy = () => {
                 </View>
 
                 {/* <View style={styles.space_down} /> */}
-                
+
             </SafeAreaView>
         </>
     )
