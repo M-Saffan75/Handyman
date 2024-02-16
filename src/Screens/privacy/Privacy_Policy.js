@@ -1,10 +1,10 @@
 import { COLOURS } from '../../ThemeColour/Theme';
 import { privacypolicy } from '../../Backend/data';
 import themeContext from '../../Toggle/themeContext';
+import React, { useEffect, useContext } from 'react';
 import * as Animatable from 'react-native-animatable';
 import { useNavigation } from '@react-navigation/native';
 import styles from '../../css/privacypolicy/privacypolicy';
-import React, { useEffect, useContext } from 'react';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5'
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import { StatusBar, SafeAreaView, Text, Image, TouchableOpacity, View, FlatList } from 'react-native'
