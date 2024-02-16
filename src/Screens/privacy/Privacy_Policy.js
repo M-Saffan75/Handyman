@@ -7,7 +7,7 @@ import { useNavigation } from '@react-navigation/native';
 import styles from '../../css/privacypolicy/privacypolicy';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5'
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import { StatusBar, SafeAreaView, Text, Image, TouchableOpacity, View, FlatList } from 'react-native'
+import { StatusBar, SafeAreaView, Text, TouchableOpacity, View, FlatList } from 'react-native'
 
 
 const Privacy_Policy = () => {
