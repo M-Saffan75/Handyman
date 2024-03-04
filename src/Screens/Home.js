@@ -6,7 +6,7 @@ import themeContext from '../Toggle/themeContext';
 import * as Animatable from 'react-native-animatable';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
-import { categories, featued_items, all_items, services_items } from '../Backend/data';
+import { categories, featued_items, services_items } from '../Backend/data';
 import { Image, ScrollView, StatusBar, TextInput, Text, FlatList, TouchableOpacity, View, SafeAreaView, ImageBackground } from 'react-native';
 
 
