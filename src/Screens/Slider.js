@@ -1,7 +1,7 @@
-import { responsiveFontSize, responsiveWidth } from 'react-native-responsive-dimensions';
 import { COLOURS } from '../ThemeColour/Theme';
 import themeContext from '../Toggle/themeContext';
 import React, { useContext, useEffect, useState, useRef } from 'react'
+import { responsiveFontSize, responsiveWidth } from 'react-native-responsive-dimensions';
 import { View, ScrollView, Image, StyleSheet, Animated, TouchableOpacity, Text, StatusBar } from 'react-native';
 
 const IMAGES = [
