@@ -1,4 +1,4 @@
-import Slider from './Slider'
+import Slider from './Slider';
 import styles from '../css/home';
 import React, { useContext } from 'react';
 import { COLOURS } from '../ThemeColour/Theme';
