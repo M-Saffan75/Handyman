@@ -1,5 +1,4 @@
 import styles from '../../css/privacypolicy/faq';
-import { COLOURS } from '../../ThemeColour/Theme';
 import Collapsible from 'react-native-collapsible';
 import React, { useState, useContext } from 'react';
 import themeContext from '../../Toggle/themeContext';
