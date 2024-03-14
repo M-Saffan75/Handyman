@@ -5,7 +5,6 @@ import React, { useState, useContext } from 'react';
 import * as Animatable from 'react-native-animatable';
 import { useNavigation } from '@react-navigation/native';
 import styles from '../../css/privacypolicy/privacypolicy';
-import FontAwesome5 from 'react-native-vector-icons/FontAwesome5'
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import { StatusBar, SafeAreaView, Text, TouchableOpacity, View, FlatList } from 'react-native';
 
