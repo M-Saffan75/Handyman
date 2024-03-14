@@ -1,7 +1,7 @@
 import { COLOURS } from '../../ThemeColour/Theme';
 import { privacypolicy } from '../../Backend/data';
-import themeContext from '../../Toggle/themeContext';
 import React, { useState, useContext } from 'react';
+import themeContext from '../../Toggle/themeContext';
 import * as Animatable from 'react-native-animatable';
 import { useNavigation } from '@react-navigation/native';
 import styles from '../../css/privacypolicy/privacypolicy';
