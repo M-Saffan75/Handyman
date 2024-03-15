@@ -3,7 +3,7 @@ import { COLOURS } from '../../../ThemeColour/Theme';
 import themeContext from '../../Toggle/themeContext';
 import * as Animatable from 'react-native-animatable';
 import { responsiveFontSize, responsiveHeight, responsiveWidth } from 'react-native-responsive-dimensions';
-import { Image, ScrollView, StatusBar, Text, TouchableOpacity, StyleSheet, TextInput, View, SafeAreaView, FlatList, ImageBackground } from 'react-native'
+import { Image, ScrollView, StatusBar, Text, TouchableOpacity, StyleSheet, TextInput, View, SafeAreaView, ImageBackground } from 'react-native'
 
 
 const InputFileds = ({ onFocus, onBlur, placeholder }) => {
