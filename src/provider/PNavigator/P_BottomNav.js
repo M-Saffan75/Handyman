@@ -5,11 +5,11 @@ import P_Drawer from '../Pscreens/profile/P_Drawer';
 import themeContext from '../../Toggle/themeContext';
 import Payments from '../Pscreens/payments/Payments';
 import P_Dashboard from '../Pscreens/dashboard/P_Dashboard';
+import P_All_Payments from '../Pscreens/payments/P_All_Payments';
 import P_Bookings_Here from '../Pscreens/P_Bookings/P_Bookings_Here';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { responsiveFontSize, responsiveHeight, responsiveWidth } from 'react-native-responsive-dimensions';
-import P_All_Payments from '../Pscreens/payments/P_All_Payments';
 
 
 const Profile_Here = () => {
