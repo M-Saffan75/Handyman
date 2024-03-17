@@ -6,7 +6,7 @@ import styles from '../../css/bookings/bookingdetails';
 import { useNavigation } from '@react-navigation/native';
 import React, { useContext, useEffect, useState } from 'react';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import { Image, ScrollView, StatusBar, Text, TouchableOpacity, View, SafeAreaView, Modal, TextInput, } from 'react-native'
+import { Image, ScrollView, StatusBar, Text, TouchableOpacity, View, SafeAreaView, Modal, TextInput, } from 'react-native';
 
 
 const BookingDetails = ({ route }) => {
