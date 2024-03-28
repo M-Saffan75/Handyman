@@ -7,7 +7,7 @@ import * as Animatable from 'react-native-animatable';
 import { useNavigation } from '@react-navigation/native';
 import { Dropdown } from 'react-native-element-dropdown';
 import { responsiveFontSize, responsiveHeight, responsiveWidth } from 'react-native-responsive-dimensions';
-import { Image, ScrollView, StatusBar, Text, FlatList, TouchableOpacity, View, SafeAreaView } from 'react-native'
+import { Image, ScrollView, StatusBar, Text, FlatList, TouchableOpacity, View, SafeAreaView } from 'react-native';
 
 const Bookings = () => {
 
