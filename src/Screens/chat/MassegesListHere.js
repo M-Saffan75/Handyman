@@ -1,5 +1,5 @@
 import Message from './Message';
-import React, { useRef, useState } from 'react'
+import React, { useRef, useState } from 'react';
 import { StyleSheet, Text, View, SrcollView } from 'react-native'
 
 
