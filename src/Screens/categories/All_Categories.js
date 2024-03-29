@@ -1,7 +1,7 @@
+import React, { useContext } from 'react';
 import { categories } from '../../Backend/data';
 import { COLOURS } from '../../ThemeColour/Theme';
 import themeContext from '../../Toggle/themeContext';
-import React, { useContext, useState, } from 'react';
 import * as Animatable from 'react-native-animatable';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import { responsiveFontSize, responsiveHeight, responsiveWidth } from 'react-native-responsive-dimensions';
