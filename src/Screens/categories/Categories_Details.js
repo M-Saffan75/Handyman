@@ -9,7 +9,7 @@ import { useNavigation } from '@react-navigation/native';
 import styles from '../../css/categories/categoriesdetails';
 import React, { useContext, useEffect, useState } from 'react';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import { Image, ScrollView, StatusBar, Text, TouchableOpacity, View, SafeAreaView, TextInput, FlatList, ImageBackground } from 'react-native'
+import { Image, ScrollView, StatusBar, Text, TouchableOpacity, View, SafeAreaView, TextInput, FlatList, ImageBackground } from 'react-native';
 
 
 const Categories_Details = ({ route }) => {
