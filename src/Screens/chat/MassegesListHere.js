@@ -1,6 +1,6 @@
 import Message from './Message';
 import React, { useRef, useState } from 'react';
-import { StyleSheet, View, SrcollView } from 'react-native';
+import { StyleSheet, SrcollView } from 'react-native';
 
 
 const MessagesListHere = () => {
