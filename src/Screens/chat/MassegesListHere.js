@@ -1,6 +1,6 @@
 import Message from './Message';
+import { SrcollView } from 'react-native';
 import React, { useRef, useState } from 'react';
-import { StyleSheet, SrcollView } from 'react-native';
 
 
 const MessagesListHere = () => {
@@ -53,5 +53,3 @@ const MessagesListHere = () => {
 }
 
 export default MessagesListHere
-
-const styles = StyleSheet.create({})
