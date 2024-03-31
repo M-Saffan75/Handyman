@@ -2,8 +2,8 @@ import { all_Chats } from '../../Backend/data';
 import styles from '../../css/chat/messagelist';
 import { COLOURS } from '../../ThemeColour/Theme';
 import themeContext from '../../Toggle/themeContext';
-import * as Animatable from 'react-native-animatable';
 import React, { useContext, useState, } from 'react';
+import * as Animatable from 'react-native-animatable';
 import { Image, StatusBar, Text, FlatList, TouchableOpacity, View, SafeAreaView } from 'react-native';
 
 const MessageList = ({ navigation }) => {
