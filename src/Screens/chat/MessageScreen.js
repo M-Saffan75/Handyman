@@ -5,7 +5,7 @@ import themeContext from '../../Toggle/themeContext';
 import { useNavigation } from '@react-navigation/native';
 import React, { useContext, useState, useEffect } from 'react';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import { Image, ScrollView, StatusBar, Text, TouchableOpacity, View, SafeAreaView, TextInput } from 'react-native'
+import { Image, ScrollView, StatusBar, Text, TouchableOpacity, View, SafeAreaView, TextInput } from 'react-native';
 
 
 
