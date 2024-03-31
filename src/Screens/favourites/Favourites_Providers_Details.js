@@ -6,7 +6,7 @@ import React, { useContext, useState, useEffect } from 'react';
 import { fav_providers, featued_items } from '../../Backend/data';
 import styles from '../../css/favourites/favouriteproviderdetails';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import { Image, ScrollView, StatusBar, Text, TouchableOpacity, View, SafeAreaView, FlatList, ImageBackground } from 'react-native'
+import { Image, ScrollView, StatusBar, Text, TouchableOpacity, View, SafeAreaView, FlatList, ImageBackground } from 'react-native';
 
 
 const Favourites_Providers_Details = ({ route }) => {
