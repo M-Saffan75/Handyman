@@ -5,7 +5,7 @@ import * as Animatable from 'react-native-animatable';
 import { useNavigation } from '@react-navigation/native';
 import styles from '../../css/favourites/favouriteservice';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import { Image, ScrollView, StatusBar, Text, TouchableOpacity, View, SafeAreaView, Modal, FlatList, ImageBackground } from 'react-native'
+import { Image, ScrollView, StatusBar, Text, TouchableOpacity, View, SafeAreaView, Modal, FlatList, ImageBackground } from 'react-native';
 
 
 const Favourites_Services = () => {
