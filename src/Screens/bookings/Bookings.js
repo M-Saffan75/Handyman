@@ -9,6 +9,7 @@ import { Dropdown } from 'react-native-element-dropdown';
 import { responsiveFontSize, responsiveHeight, responsiveWidth } from 'react-native-responsive-dimensions';
 import { Image, ScrollView, StatusBar, Text, FlatList, TouchableOpacity, View, SafeAreaView } from 'react-native';
 
+
 const Bookings = () => {
 
     const navigation = useNavigation()
