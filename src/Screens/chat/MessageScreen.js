@@ -129,4 +129,3 @@ const MessageScreen = ({ route }) => {
 }
 
 export default MessageScreen
-
