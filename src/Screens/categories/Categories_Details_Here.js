@@ -6,8 +6,8 @@ import { useNavigation } from '@react-navigation/native';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import React, { useContext, useEffect, useState } from 'react';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import { Image, ScrollView, StatusBar, Text, TouchableOpacity, View, SafeAreaView, FlatList, ImageBackground, } from 'react-native'
 import { responsiveHeight } from 'react-native-responsive-dimensions';
+import { Image, ScrollView, StatusBar, Text, TouchableOpacity, View, SafeAreaView, FlatList, ImageBackground, } from 'react-native'
 
 
 const Categories_Details_Here = ({ route }) => {
