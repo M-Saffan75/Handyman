@@ -2,7 +2,6 @@ import { COLOURS } from '../ThemeColour/Theme';
 import themeContext from '../Toggle/themeContext';
 import React, { useState, useRef, useContext } from 'react';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import { responsiveFontSize, responsiveHeight, responsiveWidth } from 'react-native-responsive-dimensions';
 import { ScrollView, StatusBar, StyleSheet, TextInput, TouchableOpacity, Text, View, SafeAreaView } from 'react-native';
 
