@@ -1,4 +1,4 @@
-import styles from './modal'
+import styles from './modal';
 import themeContext from '../Toggle/themeContext';
 import { EventRegister } from 'react-native-event-listeners';
 import React, { useState, useContext, useEffect } from 'react';
