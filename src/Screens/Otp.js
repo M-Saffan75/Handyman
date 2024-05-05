@@ -1,6 +1,6 @@
 import { COLOURS } from '../ThemeColour/Theme';
 import themeContext from '../Toggle/themeContext';
-import React, { useState, useRef, useContext } from 'react';
+import React, { useRef, useContext } from 'react';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import { responsiveFontSize, responsiveHeight, responsiveWidth } from 'react-native-responsive-dimensions';
 import { ScrollView, StatusBar, StyleSheet, TextInput, TouchableOpacity, Text, View, SafeAreaView } from 'react-native';
@@ -138,10 +138,10 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         color: COLOURS.black,
         borderColor: COLOURS.blue,
-        width:responsiveWidth(14),
-        fontFamily:'Roboto-Medium',
-        borderRadius:responsiveWidth(3),
-        fontSize:responsiveFontSize(2.5),
+        width: responsiveWidth(14),
+        fontFamily: 'Roboto-Medium',
+        borderRadius: responsiveWidth(3),
+        fontSize: responsiveFontSize(2.5),
     },
 
     btn: {
