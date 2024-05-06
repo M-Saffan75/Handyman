@@ -1,7 +1,6 @@
 import { COLOURS } from '../../ThemeColour/Theme';
 import React, { useState, useContext } from 'react';
 import themeContext from '../../Toggle/themeContext';
-import * as Animatable from 'react-native-animatable';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import { responsiveFontSize, responsiveHeight, responsiveWidth } from 'react-native-responsive-dimensions';
 import { ScrollView, StyleSheet, Text, TextInput, View, TouchableOpacity, StatusBar, Image } from 'react-native';
