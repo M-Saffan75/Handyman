@@ -10,7 +10,7 @@ import { DarkTheme, NavigationContainer, DefaultTheme } from '@react-navigation/
 
 const App = () => {
 
-  const [darkmode, setDarkMode] = useState(null)
+  const [darkmode, setDarkMode] = useState(null);
 
   useEffect(() => {
     const retrieveTheme = async () => {
