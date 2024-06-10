@@ -1,5 +1,5 @@
 import { COLOURS } from '../../ThemeColour/Theme';
-import React, { useContext, useState, } from 'react'
+import React, { useContext, useState, } from 'react';
 import themeContext from '../../Toggle/themeContext';
 import Ionicons from 'react-native-vector-icons/Ionicons'
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5'
