@@ -10,7 +10,7 @@ import { ScrollView, StatusBar, StyleSheet, TextInput, TouchableOpacity, Text, V
 const Register = ({ navigation }) => {
 
     const [hidePass, setHidePass] = useState(true);
-    const [darkmode, setDarkMode] = useState(false);
+    // const [darkmode, setDarkMode] = useState(false);
 
     const theme = useContext(themeContext);
 
