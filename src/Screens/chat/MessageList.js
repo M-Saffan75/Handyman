@@ -1,8 +1,8 @@
+import React, { useContext } from 'react';
 import { all_Chats } from '../../Backend/data';
 import styles from '../../css/chat/messagelist';
 import { COLOURS } from '../../ThemeColour/Theme';
 import themeContext from '../../Toggle/themeContext';
-import React, { useContext, useState, } from 'react';
 import * as Animatable from 'react-native-animatable';
 import { Image, StatusBar, Text, FlatList, TouchableOpacity, View, SafeAreaView } from 'react-native';
 
