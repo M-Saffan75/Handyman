@@ -52,11 +52,11 @@ const MessageScreen = ({ route }) => {
                         <>
                             <ScrollView showsVerticalScrollIndicator={false} vertical>
                                 <View style={styles.msges_here_bg}>
-                                    <Text style={[styles.msges_here_text, { backgroundColor: theme.lightblack ,color:theme.colorblue}]}>hey !</Text>
+                                    <Text style={[styles.msges_here_text, { backgroundColor: theme.lightblack, color: theme.colorblue }]}>hey !</Text>
                                 </View>
 
                                 <View style={styles.msges_here_bg}>
-                                    <Text style={[styles.msges_here_text, { backgroundColor: theme.lightblack ,color:theme.colorblue}]}>hey ! men where are you </Text>
+                                    <Text style={[styles.msges_here_text, { backgroundColor: theme.lightblack, color: theme.colorblue }]}>hey ! men where are you </Text>
                                 </View>
 
                                 <View style={styles.msges_here_bg_one}>
@@ -64,7 +64,7 @@ const MessageScreen = ({ route }) => {
                                 </View>
 
                                 <View style={styles.msges_here_bg}>
-                                    <Text style={[styles.msges_here_text, { backgroundColor: theme.lightblack ,color:theme.colorblue}]}>hey where are you ?</Text>
+                                    <Text style={[styles.msges_here_text, { backgroundColor: theme.lightblack, color: theme.colorblue }]}>hey where are you ?</Text>
                                 </View>
 
                                 <View style={styles.msges_here_bg_one}>
@@ -72,7 +72,7 @@ const MessageScreen = ({ route }) => {
                                 </View>
 
                                 <View style={styles.msges_here_bg}>
-                                    <Text style={[styles.msges_here_text, { backgroundColor: theme.lightblack ,color:theme.colorblue}]}>i need you for doing work </Text>
+                                    <Text style={[styles.msges_here_text, { backgroundColor: theme.lightblack, color: theme.colorblue }]}>i need you for doing work </Text>
                                 </View>
 
                                 <View style={styles.msges_here_bg_one}>
@@ -80,14 +80,14 @@ const MessageScreen = ({ route }) => {
                                 </View>
 
                                 <View style={styles.msges_here_bg}>
-                                    <Text style={[styles.msges_here_text, { backgroundColor: theme.lightblack ,color:theme.colorblue}]}>this is my address ?</Text>
+                                    <Text style={[styles.msges_here_text, { backgroundColor: theme.lightblack, color: theme.colorblue }]}>this is my address ?</Text>
                                 </View>
 
                                 <View style={styles.msges_here_bg_one}>
                                     <Text style={[styles.msges_here_text_one, { color: COLOURS.white }]}>i got it </Text>
                                 </View>
                                 <View style={styles.msges_here_bg}>
-                                    <Text style={[styles.msges_here_text, { backgroundColor: theme.lightblack ,color:theme.colorblue}]}>ok </Text>
+                                    <Text style={[styles.msges_here_text, { backgroundColor: theme.lightblack, color: theme.colorblue }]}>ok </Text>
                                 </View>
 
                                 <View style={styles.msges_here_bg_one}>
