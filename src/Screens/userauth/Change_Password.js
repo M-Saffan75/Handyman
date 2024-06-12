@@ -262,7 +262,7 @@ const styles = StyleSheet.create({
         letterSpacing: .5,
         paddingVertical: 15,
         textAlign: 'center',
-        textTransform:'capitalize',
+        textTransform: 'capitalize',
         fontFamily: 'Roboto-Bold',
     },
 })
