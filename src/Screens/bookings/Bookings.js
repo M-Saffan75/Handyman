@@ -131,7 +131,7 @@ const Bookings = () => {
                         />
                     </Animatable.View>
                 </View>
-            </SafeAreaView >
+            </SafeAreaView>
         </>
     )
 }
