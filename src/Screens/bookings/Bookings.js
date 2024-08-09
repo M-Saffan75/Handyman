@@ -12,7 +12,7 @@ import { Image, ScrollView, StatusBar, Text, FlatList, TouchableOpacity, View, S
 
 const Bookings = () => {
 
-    const navigation = useNavigation()
+    const navigation = useNavigation();
     const theme = useContext(themeContext);
 
     const onClickItem = (item) => {
