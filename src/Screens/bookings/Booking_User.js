@@ -141,7 +141,7 @@ const Booking_User = ({ route }) => {
 
                     </View>
                 </ScrollView>
-            </SafeAreaView >
+            </SafeAreaView>
         </>
     )
 }
