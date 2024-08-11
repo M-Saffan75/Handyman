@@ -297,7 +297,7 @@ const BookingDetails = ({ route }) => {
       {/* Modal Here To COngratulation start*/}
 
       {/*  */}
-    </SafeAreaView >
+    </SafeAreaView>
     </>
   )
 }
