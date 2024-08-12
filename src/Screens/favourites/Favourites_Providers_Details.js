@@ -155,7 +155,7 @@ const Favourites_Providers_Details = ({ route }) => {
 
                     </View>
                 </ScrollView>
-            </SafeAreaView >
+            </SafeAreaView>
         </>
     )
 }
