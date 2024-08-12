@@ -12,7 +12,7 @@ import { StatusBar, SafeAreaView, Text, TouchableOpacity, View, FlatList } from 
 const Privacy_Policy = () => {
 
     const navigation = useNavigation();
-    const theme = useContext(themeContext)
+    const theme = useContext(themeContext);
 
     return (
         <>
