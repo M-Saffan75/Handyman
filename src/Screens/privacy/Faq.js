@@ -12,7 +12,7 @@ import { StatusBar, SafeAreaView, Text, Image, TouchableOpacity, View, ScrollVie
 const Faq = () => {
 
     const navigation = useNavigation();
-    const theme = useContext(themeContext)
+    const theme = useContext(themeContext);
     const [isCollapsed, setIsCollapsed] = useState(true);
     const [isCollapsedvalue, setIsCollapsed_value] = useState(true);
     const [isCollapsedcancel, setIsCollapsed_cancel] = useState(true);
