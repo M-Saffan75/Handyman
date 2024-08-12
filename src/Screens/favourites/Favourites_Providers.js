@@ -80,7 +80,7 @@ const Favourites_Providers = () => {
                     </View>
 
                 </View >
-            </SafeAreaView >
+            </SafeAreaView>
         </>
     )
 }
