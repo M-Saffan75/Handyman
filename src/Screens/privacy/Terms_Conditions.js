@@ -11,7 +11,7 @@ import { StatusBar, SafeAreaView, Text, Image, TouchableOpacity, View, FlatList,
 const Terms_Conditions = () => {
 
     const navigation = useNavigation()
-    const theme = useContext(themeContext)
+    const theme = useContext(themeContext);
 
     const [datehere, setDateHere] = useState('');
 
