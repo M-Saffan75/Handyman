@@ -13,7 +13,7 @@ const Terms_Conditions = () => {
     const navigation = useNavigation()
     const theme = useContext(themeContext)
 
-    const [datehere, setDateHere] = useState('')
+    const [datehere, setDateHere] = useState('');
 
     useEffect(() => {
         getCurrentDate()
