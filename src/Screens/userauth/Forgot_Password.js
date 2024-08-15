@@ -7,6 +7,7 @@ import { responsiveFontSize, responsiveHeight, responsiveWidth } from 'react-nat
 import { ScrollView, StatusBar, StyleSheet, TextInput, TouchableOpacity, Text, View, SafeAreaView } from 'react-native';
 
 const Forgot_Password = ({ navigation }) => {
+    
     const theme = useContext(themeContext);
 
     return (
