@@ -1,5 +1,5 @@
 import { COLOURS } from '../../ThemeColour/Theme';
-import React, { useState, useContext } from 'react';
+import React, { useContext } from 'react';
 import themeContext from '../../Toggle/themeContext';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
@@ -7,7 +7,7 @@ import { responsiveFontSize, responsiveHeight, responsiveWidth } from 'react-nat
 import { ScrollView, StatusBar, StyleSheet, TextInput, TouchableOpacity, Text, View, SafeAreaView } from 'react-native';
 
 const Forgot_Password = ({ navigation }) => {
-    
+
     const theme = useContext(themeContext);
 
     return (
@@ -29,7 +29,7 @@ const Forgot_Password = ({ navigation }) => {
                         <Text style={[styles.your_name, { color: theme.colorwhite }]}>Email</Text>
                         <View style={[styles.inpt_container, { backgroundColor: theme.lightblack }]}>
                             <FontAwesome5 name='envelope' style={[styles.icon, { color: theme.colorblue }]} />
-                            <TextInput placeholder='Your Email' placeholderTextColor={COLOURS.grey} style={[styles.name_inpt,{color: theme.colorwhite}]} />
+                            <TextInput placeholder='Your Email' placeholderTextColor={COLOURS.grey} style={[styles.name_inpt, { color: theme.colorwhite }]} />
                         </View>
 
                         <View style={styles.btn_center}>
