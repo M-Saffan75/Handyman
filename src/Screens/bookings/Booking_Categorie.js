@@ -97,7 +97,7 @@ const Booking_Categorie = ({ route }) => {
                                 </View>
                             </View>
                         </View>
-                        
+
                         <View style={styles.more_handyman}>
                             <Text style={[styles.more_handyman_text, { color: theme.colorwhite }]}>reviews ( {reviews.length} )</Text>
                         </View>
