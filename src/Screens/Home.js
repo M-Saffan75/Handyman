@@ -258,7 +258,7 @@ export default function Home({ navigation }) {
                     </View>
 
                 </ScrollView>
-            </SafeAreaView >
+            </SafeAreaView>
 
         </>
     )
