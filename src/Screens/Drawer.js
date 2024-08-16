@@ -20,7 +20,7 @@ const Drawer = () => {
     const [logoutVisible, setVisible] = useState(false);
     const [modalVisible, setModalVisible] = useState(false);
 
-    const navigation = useNavigation()
+    const navigation = useNavigation();
     const theme = useContext(themeContext);
 
     const openModal = () => {
