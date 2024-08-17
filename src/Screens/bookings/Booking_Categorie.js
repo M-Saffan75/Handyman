@@ -14,7 +14,7 @@ const Booking_Categorie = ({ route }) => {
     const { id } = route.params
     const navigation = useNavigation();
     const theme = useContext(themeContext);
-    const [categorie_data, setCategorie_data] = useState(null)
+    const [categorie_data, setCategorie_data] = useState(null);
     const selectedItem = all_booking.find(item => item.id === id);
 
     useEffect(() => {
