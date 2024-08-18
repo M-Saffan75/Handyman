@@ -13,8 +13,8 @@ import { ScrollView, StatusBar, StyleSheet, TextInput, TouchableOpacity, Text, V
 const Login = ({ navigation }) => {
 
 
-    const theme = useContext(themeContext);
     const passwordInputRef = useRef(null);
+    const theme = useContext(themeContext);
     const [hidePass, setHidePass] = useState(true);
     const [value_two, setValue_two] = useState(null);
 
