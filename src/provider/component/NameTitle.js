@@ -3,7 +3,7 @@ import { COLOURS } from '../../../ThemeColour/Theme';
 import themeContext from '../../Toggle/themeContext';
 import * as Animatable from 'react-native-animatable';
 import { responsiveFontSize, responsiveHeight, responsiveWidth } from 'react-native-responsive-dimensions';
-import { Image, StatusBar, TouchableOpacity, StyleSheet, View, SafeAreaView, FlatList, ImageBackground } from 'react-native';
+import { Image, StatusBar, StyleSheet, View, SafeAreaView, FlatList, ImageBackground } from 'react-native';
 
 
 const NameTitle = ({label}) => {
