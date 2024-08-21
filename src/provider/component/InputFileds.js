@@ -1,4 +1,4 @@
-import React, { useContext , useState} from 'react';
+import React, { useContext, useState } from 'react';
 import { COLOURS } from '../../../ThemeColour/Theme';
 import themeContext from '../../Toggle/themeContext';
 import * as Animatable from 'react-native-animatable';
@@ -26,8 +26,8 @@ const InputFileds = ({ onFocus, onBlur, placeholder }) => {
     <View>
       <Animatable.View duration={300} animation={'fadeInUp'}>
         <TextInput placeholder={placeholder} style={[styles.inpt_name, { backgroundColor: theme.lightblack }]}
-           onFocus={handleFocus}
-           onBlur={handleBlur} />
+          onFocus={handleFocus}
+          onBlur={handleBlur} />
       </Animatable.View>
     </View>
   )
