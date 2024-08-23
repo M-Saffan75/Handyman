@@ -1,8 +1,8 @@
+import { StatusBar, View, } from 'react-native';
 import React, { useContext, useState } from 'react';
 import { COLOURS } from '../../../ThemeColour/Theme';
 import themeContext from '../../Toggle/themeContext';
 import * as Animatable from 'react-native-animatable';
-import { StatusBar, View, } from 'react-native';
 import { responsiveHeight, responsiveWidth } from 'react-native-responsive-dimensions';
 
 
