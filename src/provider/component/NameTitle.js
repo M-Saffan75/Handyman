@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { COLOURS } from '../../../ThemeColour/Theme';
 import themeContext from '../../Toggle/themeContext';
 import * as Animatable from 'react-native-animatable';
-import { StatusBar, StyleSheet, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import { responsiveFontSize, responsiveHeight, responsiveWidth } from 'react-native-responsive-dimensions';
 
 
