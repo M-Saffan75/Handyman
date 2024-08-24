@@ -1,6 +1,5 @@
 import { COLOURS } from '../../ThemeColour/Theme';
 import themeContext from '../../Toggle/themeContext';
-import * as Animatable from 'react-native-animatable';
 import { terms_conditions } from '../../Backend/data';
 import { useNavigation } from '@react-navigation/native';
 import styles from '../../css/privacypolicy/privacypolicy';
