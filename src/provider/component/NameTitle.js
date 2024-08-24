@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
+import { StyleSheet, View } from 'react-native';
 import { COLOURS } from '../../../ThemeColour/Theme';
 import themeContext from '../../Toggle/themeContext';
 import * as Animatable from 'react-native-animatable';
-import { StyleSheet, View } from 'react-native';
 import { responsiveFontSize, responsiveHeight, responsiveWidth } from 'react-native-responsive-dimensions';
 
 
