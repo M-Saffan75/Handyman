@@ -14,7 +14,7 @@ const Favourites_Providers_Details = ({ route }) => {
     const { id } = route.params
     const navigation = useNavigation();
     const theme = useContext(themeContext);
-    const [provider_user, setProvider_user] = useState(null)
+    const [provider_user, setProvider_user] = useState(null);
     const [provider_more, setProvider_more] = useState(null)
     const selectedItem = fav_providers.find(item => item.id === id);
     
