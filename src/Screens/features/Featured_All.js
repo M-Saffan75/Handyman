@@ -10,7 +10,7 @@ import { Image, StatusBar, Text, TouchableOpacity, View, SafeAreaView, FlatList,
 
 const Featured_All = () => {
 
-    const navigation = useNavigation()
+    const navigation = useNavigation();
     const theme = useContext(themeContext);
 
     const onClickItem = (item) => {
