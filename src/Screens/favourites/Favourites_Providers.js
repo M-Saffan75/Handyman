@@ -10,7 +10,7 @@ import { Image, ScrollView, StatusBar, Text, TouchableOpacity, View, SafeAreaVie
 
 const Favourites_Providers = () => {
 
-    const navigation = useNavigation()
+    const navigation = useNavigation();
     const theme = useContext(themeContext);
 
     const onClickItem = (item) => {
