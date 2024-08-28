@@ -1,7 +1,6 @@
 import { Checkbox } from 'react-native-paper';
 import { COLOURS } from '../../ThemeColour/Theme';
 import themeContext from '../../Toggle/themeContext';
-import Feather from 'react-native-vector-icons/Feather';
 import { Dropdown } from 'react-native-element-dropdown';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import React, { useState, useContext, useRef } from 'react';
