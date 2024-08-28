@@ -14,7 +14,7 @@ const Favourite_Service_Details = ({ route }) => {
     const { id } = route.params
     const navigation = useNavigation();
     const theme = useContext(themeContext);
-    const [categorie_data, setCategorie_data] = useState(null)
+    const [categorie_data, setCategorie_data] = useState(null);
     const selectedItem = all_items.find(item => item.id === id);
     console.log(selectedItem)
 
