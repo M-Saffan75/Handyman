@@ -5,7 +5,7 @@ import { useNavigation } from '@react-navigation/native';
 import { all_booking, reviews } from '../../Backend/data';
 import React, { useContext, useEffect, useState } from 'react';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import { Image, ScrollView, StatusBar, Text, TouchableOpacity, View, SafeAreaView, FlatList, } from 'react-native';
+import { Image, ScrollView, StatusBar, Text, TouchableOpacity, View, SafeAreaView, FlatList } from 'react-native';
 
 
 const Booking_User = ({ route }) => {
