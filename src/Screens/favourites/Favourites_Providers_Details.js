@@ -21,7 +21,7 @@ const Favourites_Providers_Details = ({ route }) => {
     
     useEffect(() => {
         setProvider_user(selectedItem);
-        setProvider_more(selectedItem.items)
+        setProvider_more(selectedItem.items);
         console.log(selectedItem.items)
     }, [selectedItem]);
 
