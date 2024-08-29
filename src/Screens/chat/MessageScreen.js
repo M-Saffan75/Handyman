@@ -15,7 +15,7 @@ const MessageScreen = ({ route }) => {
 
     const { id } = route.params
     const navigation = useNavigation();
-    const [message_data, setMessage_data] = useState(null)
+    const [message_data, setMessage_data] = useState(null);
     const selectedItem = all_Chats.find(item => item.id === id);
 
 
